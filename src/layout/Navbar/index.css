@@ -1,7 +1,7 @@
 :root{
     --white:#fff;
     --gray:rgba(0,0,0,.56);
-    --primary:rgb(117, 114, 114);
+    --primary:rgba(0,0,0,.04);
 }
 ::placeholder{
     font-weight: 600;

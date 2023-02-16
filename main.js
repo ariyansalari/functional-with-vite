@@ -1,5 +1,6 @@
 import App from "./src/App";
 
-const nav=document.querySelector("#Element");
+const root=document.querySelector("#root");
 
-nav.append(App())
+root.append(App())
+

@@ -1,4 +1,4 @@
-import NavEL from "../utils/NavEL";
+import NavEL from "../../utils/NavEL";
 import "./index.css"
 {/* <div class=""></div> */}
 const Navbar=()=>{
@@ -37,7 +37,7 @@ const Navbar=()=>{
             element:"div",
             children:NavEL({
                 element:"div",
-                style:"background-color:var(--primary)",
+                style:"background-color:var(--primary); border-radius:4px",
                 className:"flex",
                 children:[NavEL({
                     element:"input",

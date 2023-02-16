@@ -1,7 +1,6 @@
-import Navbar from "./Navbar";
-
+import Layout from "./layout";
 const App=()=>{
-    return Navbar();
+return Layout()
 }
 
 export default App;
